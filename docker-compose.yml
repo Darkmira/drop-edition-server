@@ -104,7 +104,7 @@ services:
     # RabbitMQ
     #
     rabbitmq:
-        image: rabbitmq:management-alpine
+        image: rabbitmq:3.7.3-management-alpine
         ports:
             - 12000:5672
             - 12001:15672

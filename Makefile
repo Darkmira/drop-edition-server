@@ -21,7 +21,7 @@ run:
 	docker-compose up -d
 
 stop:
-	docker-compose down
+	docker-compose stop
 
 logs:
 	docker-compose logs -ft
